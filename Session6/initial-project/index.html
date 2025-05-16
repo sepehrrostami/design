@@ -1,0 +1,45 @@
+﻿﻿<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Session 6</title>
+</head>
+<body>
+    <form>
+        <fieldset style="color:darkorange">
+            <legend>اطلاعات ارسال و پرداخت</legend>
+            <label for="province-choice">استان:</label>
+            <input list="province-options" id="province-choice" name="province-choice" />
+            <datalist id="province-options">
+                <option value="Iran"></option>
+                <option value="USA"></option>
+                <option value="Nepal"></option>
+                <option value="Austria"></option>
+            </datalist>
+            <br />
+            <br />
+            <label for="address">آدرس:</label>
+            <textarea type="text" id="address" name="address" rows="4" cols="89" required>
+            </textarea>
+            <br />
+            <br />
+            <input type="checkbox" id="subscribe" name="check" value="true" />
+            <label for="subscribe">خودم بسته را تحویل می گیرم</label>
+            <br />
+            <br />
+            <input type="radio" id="ملت" name="بانک" value="ملت" checked />
+            <label for="ملت">ملت</label>
+            <br />
+            <input type="radio" id="صادرات" name="بانک" value="صادرات" />
+            <label for="صادرات">صادرات</label>
+            <br />
+            <input type="radio" id="پارسیان" name="بانک" value="پارسیان" />
+            <label for="پارسیان">پارسیان</label>
+            <br />
+            <br />
+            <button type="submit">ثبت سفارش</button>
+        </fieldset>
+    </form>
+</body>
+</html>

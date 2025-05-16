@@ -1,0 +1,45 @@
+﻿﻿<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Session 6</title>
+</head>
+<body>
+    <h1 style="color:orangered">فرم دعوت نامه</h1>
+    <form style="color:deepskyblue">
+        <fieldset>
+            <legend>اطلاعات مهمان</legend>
+            <label for="name">نام و نام خانوادگی</label>
+            <br />
+            <input type="text" id="name" name="name&family" required />
+            <br />
+            <br />
+            <label for="mail">ایمیل</label>
+            <br />
+            <input type="email" id="mail" name="mail" required />
+            <br />
+            <br />
+            <input type="radio" id="male" name="gender" value="آقا" />
+            <label for="male">آقا</label>
+            <input type="radio" id="female" name="gender" value="خانم" />
+            <label for="female">خانم</label>
+            <br />
+            <br />
+            <label for="counts">تعداد همراه:</label>
+            <select id="counts" name="counts">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br />
+            <br />
+            <button type="submit">ثبت</button>
+            <button type="reset">بازنشانی</button>
+        </fieldset>
+    </form>
+</body>
+</html>

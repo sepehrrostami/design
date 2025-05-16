@@ -1,0 +1,90 @@
+﻿﻿<!DOCTYPE html>
+<html dir="ltr" lang="fa">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Session 6</title>
+</head>
+<body>
+    <form>
+        <label for="name">نام:</label>
+        <br />
+        <input type="text" id="name" name="user_name" required />
+        <br />
+        <label for="msg">توضیحات:</label>
+        <br />
+        <textarea id="msg" name="user_message" rows="4" cols="89" required></textarea>
+        <br />
+        <label for="password">رمز عبور:</label>
+        <br />
+        <input type="password" id="password" required />
+        <br />
+        <hr />
+        <label for="birthday">Birthday</label>
+        <input type="date" id="birthday" />
+        <br />
+        <hr />
+        <input type="file" id="profile" accept="image/png, image/jpeg" />
+        <br />
+        <hr />
+        <label for="range">Start range:</label>
+        <input type="range" id="range" value="46" />
+        <br />
+        <hr />
+        <input type="checkbox" id="subscribe" name="check" value="true" />
+        <label for="subscribe">Subscribe for newer contents</label>
+        <br />
+        <hr />
+        <input type="radio" id="cat" name="animal" value="cat" />
+        <label for="cat">Cat</label>
+        <input type="radio" id="dog" name="animal" value="dog" />
+        <label for="dog">Dog</label>
+        <br />
+        <hr />
+        <label for="pets">Pets:</label>
+        <select id="pets">
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="monkey">Monkey</option>
+            <option value="elephant">Elephant</option>
+        </select>
+        <br />
+        <hr />
+        <button type="submit">ثبت</button>
+        <button type="reset">بازنشانی</button>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Name</legend>
+            <label for="name">نام:</label>
+            <br />
+            <input type="text" id="name" name="user_name" required />
+            <br />
+            <label for="msg">توضیحات:</label>
+            <br />
+            <textarea id="msg" name="user_message" rows="8" cols="51" required></textarea>
+        </fieldset>
+    </form>
+    <hr />
+    <form>
+        <label for="country-choice">Choose a country:</label>
+        <input list="country-options" id="country-choice" name="country-choice" />
+        <datalist id="country-options">
+            <option value="Iran"></option>
+            <option value="USA"></option>
+            <option value="Nepal"></option>
+            <option value="Austria"></option>
+        </datalist>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </form>
+</body>
+</html>
